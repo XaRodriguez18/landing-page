@@ -133,3 +133,33 @@ h2 {
     font-style: italic;
     color: #1F2937;
 }
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 100px;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    gap: 32px;
+    flex: 1;
+}
+
+.left-text {
+    color: #F9FAF8;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    padding: 8px;
+    color: #F9FAF8;
+}
