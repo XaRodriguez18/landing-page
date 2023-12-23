@@ -163,3 +163,11 @@ h2 {
     padding: 8px;
     color: #F9FAF8;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
