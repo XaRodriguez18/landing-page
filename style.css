@@ -115,3 +115,21 @@ h2 {
     font-weight: bolder;
     color: #1F2937;
 }
+
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 20px 100px;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
