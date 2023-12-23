@@ -1,5 +1,8 @@
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nav-bar {
@@ -32,4 +35,42 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+h1,
+.header-text {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+} 
+
+.header-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+   background-color: #3882F6;
+   color: #F9FAF8;
+   border-radius: 8px;
+   border: none;
+   padding: 8px 16px;
 }
